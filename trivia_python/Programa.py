@@ -159,17 +159,6 @@ def buscar_pregunta():
     return puntaje
 
 
-def seleccion_jugador(jugador_actual, cantidad_jugadores):
-    
-    if jugador_actual >= cantidad_jugadores:
-        jugador_actual = 1
-    else:
-        jugador_actual +=1
-    print('Turno del jugador', jugador_actual)
-    jugador = 'Jugador' + str(jugador_actual)
-    return jugador
-
-
 if __name__ == '__main__':
     print("\n¡Bienvenidos a TRIVIA! ¡Juego de preguntas y respuestas!\n")
 
