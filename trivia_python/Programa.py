@@ -148,6 +148,12 @@ def buscar_pregunta():
             print('Lo siento, la opción ingresada es incorrecta, nos sumas puntos :(')
             break
 
+        #Si el jugador ingresa como texto la respuesta y la misma NO es la correcta:
+
+        elif (op_elegida == opcion_a) or (op_elegida == opcion_b) or (op_elegida == opcion_c) or (op_elegida == opcion_d):
+            print('Lo siento, la opción ingresada es incorrecta, nos sumas puntos :(')
+            break
+
         #Si es jugador ingresa por teclado cualquier texto diferente de A, B, C o D o las opciones disponibles, el programa evalúa la
         #el texto ingresado como inválido solicitando que se ingrese la respuesta nuevamente.
 
